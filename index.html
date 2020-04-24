@@ -1,0 +1,245 @@
+<html>
+<head>
+    <title>SignUp Page Robokalam</title>
+<style>
+    
+    
+    *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+    .cover{
+/*  max-width: 300px;*/
+  width: 460px;
+  background:#DAE1E4;
+/*  margin: 10px auto;*/
+  box-shadow: 10px 12px 10px rgba(0.5,0.5,0.9,0.125);
+  padding: 10px;
+  border-radius: 5px;
+    height: 550px;
+    margin-top: 35px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    
+}
+    
+    .title{
+        color: black;
+        font-family: sans-serif;
+        margin-left: 10px;
+    }
+    .twodiv{
+        margin-top: 20px;
+        height: 40px;
+        width: 210px;
+        background-color:white;
+        border-radius: 6px;
+        align-content: left;
+          float:left;
+        font-family:sans-serif;
+         font-size: 16px;
+        padding-left: 10px;
+        border: none;
+  
+  
+    }
+    
+        .twod{
+        margin-top: 20px;
+        height: 40px;
+        width: 210px;
+        background-color:white;
+        border-radius: 6px;
+        float:right;
+            font-family:sans-serif;
+        font-size: 16px;
+        padding-left: 10px;
+            border: none;
+    }
+    
+    .other3{
+        margin-top: 20px;
+        height: 40px;
+        width: 440px;
+        background-color:white;
+        border-radius: 6px;
+        align-content: left;
+          float:left;
+        font-family:sans-serif;
+        font-size: 16px;
+        padding-left: 10px;
+        text-decoration: none;
+        border: none;
+  
+    }
+   
+    
+    .birth{
+        margin-top: 250px;
+        font-size: 20px;
+        font-weight: 20px;
+    }
+    
+    .dob{
+        height: 35px;
+        width:60px;
+        border-radius: 7px;
+        float:left;
+        margin: 2px;
+    }
+    
+    .comment{
+      
+        color:blue;
+        float:left;
+        margin-left: 15px;
+        margin-top: 8px;
+        font-family: inherit;
+        font-size: 14px;
+    }
+    
+    
+    .genderF{
+        margin-top: 50px;
+        float:left;
+        display: inline-block;
+        background-color: aqua;
+    }
+    .gender{
+        margin-top:25px;
+        float:left;
+        display: inline;
+/*        margin-bottom: 30px;*/
+        
+    }
+    .last{ 
+        margin-bottom: 
+        text-align: left;
+        display: inline;
+        background-color: aqua;
+       font-size: 12px;
+    }
+   
+    .redText
+{
+    color: blue;
+}
+    
+    
+    .button {
+  background-color: #4CAF50;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 200px;
+  border: none;
+ height: 45px;
+margin-top: 14px;
+}
+    
+    
+    
+    
+    
+     
+    </style>    
+    
+    </head>
+    
+<body>
+    <form>
+    <div class = 'cover'>
+   <div class="title">
+     <h1> Sign Up</h1>
+     <p>It's free and always will be.</p>
+   </div>
+        
+    <div class = 'inputfield'>
+         <input type="text" class="twodiv" placeholder="   Firstname">
+    </div>
+    
+    <div>
+        <input type="text" class="twod" placeholder= "  Lastname">
+    </div>
+        
+     <div>
+         <input type="text" class="other3" placeholder="   Your Email  ">
+    </div>
+        
+        
+     <div>
+         <input type="text" class="other3" placeholder="   Re-enter Email  ">
+    </div>
+        
+        
+     <div>
+        <input type="password" class="other3" placeholder="   New Password   ">
+    </div>
+        
+        
+    <p class = 'birth'>Birthday</p>
+    <select name="DOBDay" class = 'dob'>
+
+<option>Month</option>
+<option value="January">January</option>
+<option value="Febuary">Febuary</option>
+<option value="March">March</option>
+<option value="April">April</option>
+<option value="May">May</option>
+        </select>
+
+        
+<select class = 'dob'>
+<option>Day </option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+        
+</select>
+        
+    <select name="DOBYear" class = 'dob'>
+<option>Year</option>
+<option value="2020">2020</option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+        
+        </select> 
+        <a> <p class = 'comment'>why do I need to provide <br>my birthday?</p>  </a>
+ 
+
+ <div class = 'gender'>      
+<input type="radio" id="female" name="gender" value="female">   Female
+ 
+<input type="radio" id="male" name="gender" value="male">   Male
+   
+     
+<div class = 'last'>
+<br>
+<br>
+<p>By clicking Sign Up, you agree to our <span class="redText">Terms</span> and that you <br>have read our<span class="redText">Data Use Policy</span> , including our<span class="redText">Cookie Use</span> </p></div>
+  
+  </div>    
+        
+ 
+<input type="button" class="button" value="Sign UP">
+        
+        
+        
+    </div>
+    </form>
+    </body>
+
+
+</html>
